@@ -156,3 +156,30 @@ img{
     width: 10rem;
     height: 12rem;
 }
+@media only screen and (max-width: 600px){
+#top{
+    display: block;
+}
+.all{
+    width: 14rem;
+}
+img{
+    width: 14rem;
+    height: 17rem;
+    border-radius: 30%;
+    border: solid 3px rgb(98, 75, 224);
+}
+.split{
+    padding: none;
+}
+#more1 img{
+    display: none;
+}
+.whole{
+    display: block;
+
+}
+.whole img{
+    margin: 3rem;
+}
+}
