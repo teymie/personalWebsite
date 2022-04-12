@@ -176,10 +176,24 @@ img{
     display: none;
 }
 .whole{
-    display: block;
+    display: inline;
 
 }
 .whole img{
     margin: 3rem;
+}
+#more{
+    width: 26rem;
+   
+}
+#new{
+    width: 26rem;
+
+}
+.about{
+    padding: none;
+}
+.skills{
+    display: block;
 }
 }
