@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body{
+    font-family:  poppins , sans-serif;
+    background-color: black;
+    color: white;
+}#top{
+display: flex;
+justify-content: space-between;
+}
+.lists{
+    display: flex;
+    justify-content: space-between; 
+    margin: 2rem;
+    width: 32rem;
+    font-size: 12px;
+}
+.lists a{
+    text-decoration: none;
+    color: white;
+    transition: all 300ms ease;
+}
+.lists a:hover{
+    text-decoration: underline;
+    color: rgb(121, 100, 241);
+    cursor: pointer;
+   
+    height: 3rem;
+    width: 6rem;
+    
+  
+}
+h1{
+    font-size: 32px;
+}
+span{
+    color: rgb(98, 75, 224);
+}
+#welcome{
+    font-family: cursive;
+    color: rgb(98, 75, 224);
+    font-size: 32px;
+}
+.me{
+    background-color: black;
+    padding: 3rem;
+}
+.all{
+    font-size: 15px;
+    word-spacing: 6px;
+    font-weight: lighter;
+    width: 30rem;
+    font-family:sans-serif, serif;
+    color: rgb(98, 75, 224);
+    
+}
+.hidden{
+   width: 18rem;
+    font-size: 18px;
+
+    padding: 1rem;
+}
+.hid{
+display: flex;
+justify-content: start;
+width: 10rem;
+
+
+}
+button{
+    background-color: black;
+    border: none;
+    height: 0;
+    width: none;
+}
+
+ button .btn{
+    width: 2rem;
+    height: 1.8rem;
+    border: solid 2px rgb(98, 75, 224);
+    border-radius: 60%;
+    background-color: rgb(15, 22, 36);
+   margin-top: 1.8rem;
+   margin-left: -2rem;
+
+}
+#more3{
+    display: none;
+    justify-content: space-between;
+    padding: 3rem;
+    
+}
+#more1{
+    display: none;
+    justify-content: space-between;
+    padding: 3rem;
+    
+}
+#more2{
+    display: none;
+    justify-content: space-between;
+    padding: 3rem;
+    
+}
+#about{
+display: none;
+    padding: 3rem;
+    color: rgb(98, 75, 224);
+}
+button .close{
+    position: relative;
+    top: 20;
+    background-color: black;
+}
+.contact{
+    display: none;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 40rem;
+}
+.icons li{
+    list-style: none;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    width: 50rem;
+    color: rgb(98, 75, 224);
+}
+.skills li{
+    height: 2rem;
+    list-style: none;
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 18rem;
+    height: 20rem;
+    border-radius: 30%;
+    border: solid 3px rgb(98, 75, 224);
+}
+.split img{
+    width: 16rem;
+    height: 20rem;
+}
+.whole{
+    display: flex;
+    justify-content: space-between;
+}
+.whole img{
+    width: 10rem;
+    height: 12rem;
+}
