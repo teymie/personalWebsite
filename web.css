@@ -186,6 +186,9 @@ img{
     width: 26rem;
    
 }
+#more3{
+    width: 26rem;
+}
 #new{
     width: 26rem;
 
@@ -195,5 +198,11 @@ img{
 }
 .skills{
     display: block;
+}
+#more4{
+    width: 27rem;
+}
+.first{
+    width: 28rem;
 }
 }
